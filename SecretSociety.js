@@ -16,6 +16,7 @@ function secretSociety(nombres) {
     let resultado = "";
 
     nombres.forEach((nombre) => {
+        nombre.sort();
         nombre.map((secretName) => {
             resultado += secretName[0];
         });
